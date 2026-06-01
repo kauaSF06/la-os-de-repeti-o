@@ -1,0 +1,8 @@
+let quantidade = Number(prompt("digite a quantidade de numeros que voce quer somar"))
+let soma = 0;
+while(quantidade !==0){
+    
+    soma += quantidade
+    quantidade = Number(prompt("digite o numero(digite 0 para parar)"))
+}
+alert("a soma total dos numeros digitados e: "+ soma)
