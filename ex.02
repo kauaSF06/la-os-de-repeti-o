@@ -1,0 +1,7 @@
+let num;
+do{
+    num = Number(prompt("digite um numero maior que 100"))
+}while(num <100)
+    if(num>100){
+        alert("numero valido")
+    }
