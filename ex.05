@@ -1,0 +1,6 @@
+let senha =1234
+let Senha_do_usuario;
+do{ 
+    Senha_do_usuario = Number(prompt("digite sua senha"))
+}while(Senha_do_usuario!=senha)
+    alert("Senha Correta")
