@@ -1,0 +1,4 @@
+let num
+do{
+    num = prompt("digite um valor positivo")
+}while(num<0)
