@@ -1,0 +1,6 @@
+contador = 10
+
+while(contador<=10){
+    alert(`numero ${contador}`)
+    contador -- 
+}
