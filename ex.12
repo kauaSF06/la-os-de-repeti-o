@@ -1,0 +1,11 @@
+let nota
+let notas=[]
+let media
+let soma = 0
+for(let i = 0; i<=6; i++){
+    nota = Number(prompt("digite sua nota"))
+    notas.push(nota);
+    soma += nota
+}
+media = soma/notas.length
+alert(`suas notas respectivamente sao ${notas} e a media ${media}`)
