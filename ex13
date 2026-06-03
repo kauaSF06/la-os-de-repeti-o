@@ -1,0 +1,4 @@
+let numero
+do{
+    numero = Number(prompt("digite numeros par(quando digitar o impar vai parar)"))
+}while(numero % 2 == 0)
